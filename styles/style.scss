@@ -1,6 +1,7 @@
 @import 'normalize', 'media', 'variables', 'fonts', 'mixins', 'utils', 'globals';
 
-@import '../styles/blocks/button', '../styles/blocks/burger-button',
-	'../styles/blocks/header', '../styles/blocks/cross-button',
-	'../styles/blocks/mobile-overlay', '../styles/blocks/section',
-	'../styles/blocks/hero';
+@import '../styles/blocks/button', 'blocks/grid',
+	'../styles/blocks/burger-button', '../styles/blocks/header',
+	'../styles/blocks/cross-button', '../styles/blocks/mobile-overlay',
+	'../styles/blocks/section', '../styles/blocks/hero', 'blocks/puddle-bg',
+	'blocks/services', 'blocks/services-card', 'blocks/banner';
