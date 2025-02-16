@@ -4,13 +4,33 @@
 			"path": "index.html",
 			"bookmarks": [
 				{
-					"line": 957,
+					"line": 651,
 					"column": 0,
 					"label": ""
 				},
 				{
-					"line": 1058,
-					"column": 36,
+					"line": 655,
+					"column": 0,
+					"label": ""
+				},
+				{
+					"line": 665,
+					"column": 0,
+					"label": ""
+				},
+				{
+					"line": 666,
+					"column": 0,
+					"label": ""
+				}
+			]
+		},
+		{
+			"path": "styles/blocks/_team.scss",
+			"bookmarks": [
+				{
+					"line": 6,
+					"column": 0,
 					"label": ""
 				}
 			]
