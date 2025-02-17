@@ -1198,7 +1198,9 @@
 					<div class="contact-us">
 						<form class="contact-us__form">
 							<fieldset class="contact-us__request-types radios">
-								<legend class="radios-title">Request type</legend>
+								<legend class="radios-title visually-hidden">
+									Request type
+								</legend>
 								<label class="radios__item radio">
 									<input
 										class="radio__input visually-hidden"
@@ -1233,25 +1235,25 @@
 									/>
 								</div>
 								<div class="contact-us__field field">
-									<label class="field__label" for="message">Massage*</label>
-									<textarea
+									<label class="field__label" for="email">Email</label>
+									<input
 										class="field__input"
+										id="email"
+										name="email"
+										type="email"
+										placeholder="Email"
+									/>
+								</div>
+								<div class="contact-us__field field">
+									<label class="field__label" for="message">Message*</label>
+									<textarea
+										class="field__input field__input--textarea"
 										id="message"
 										name="message"
 										type="text"
-										placeholder="message"
+										placeholder="Message"
 										required
 									></textarea>
-								</div>
-								<div class="contact-us__field field">
-									<label class="field__label" for="name"></label>
-									<input
-										class="field__input"
-										id="name"
-										name="name"
-										type="text"
-										placeholder="Name"
-									/>
 								</div>
 							</div>
 							<button class="contact-us__button button" type="submit">
